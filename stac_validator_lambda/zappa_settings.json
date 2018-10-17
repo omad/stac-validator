@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "app_function": "staclint.app.app",
+        "aws_region": "us-west-2",
+        "profile_name": "sparkgeo",
+        "project_name": "staclint-api",
+        "runtime": "python3.6",
+        "s3_bucket": "staclint-api",
+
+        "async_resources": true,
+        "async_response_table": "staclint",
+        "async_response_table_read_capacity": 5,
+        "async_response_table_write_capacity": 5
+    }
+}
