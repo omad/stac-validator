@@ -162,6 +162,7 @@ def test_catalog_master():
         "items": {"valid": 0, "invalid": 0},
     }
 
+
 @pytest.mark.stac_spec
 def test_collection_master():
     stac = _run_validate(
@@ -173,7 +174,7 @@ def test_collection_master():
         "items": {"valid": 0, "invalid": 0},
     }
 
-@pytest.mark.item_spec
+
 @pytest.mark.stac_spec
 def test_item_master():
     stac = _run_validate(
@@ -184,4 +185,3 @@ def test_item_master():
         "collections": {"valid": 0, "invalid": 0},
         "items": {"valid": 1, "invalid": 0},
     }
-
