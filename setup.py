@@ -20,7 +20,7 @@ setup(
     version="0.0.1",
     author="James Banting",
     author_email="jbanting@sparkgeo.com",
-    description="A package to validate STAC items and catalogs",
+    description="A package to validate the STAC spec",
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=requires,
